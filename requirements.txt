@@ -1,0 +1,9 @@
+tensorflow
+numpy
+pillow
+werkzeug
+flask
+cassandra-driver
+
+
+
