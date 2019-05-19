@@ -5,12 +5,12 @@
 * Handwriting recognition has always been a classic topic in deep learning. In order to facilitate people's use, we hope to write an app that allows people to upload pictures on the Web page, and then get predicted numbers of their handwriting. Additionally, the information of upload time, filename and the prediction number can also be recorded in the database at the same time, since the information is conducive to further model checking and data analysis.
 
 
-##2.demo
+##2.Demo
 
 
 ![demo](demo.gif)
 
-##3.requirement
+##3.Requirement
 * The knowledge of python is required. (python 3 or more)
 * Some simple operations of Cassandra database and Docker containers.
 
