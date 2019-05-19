@@ -2,10 +2,12 @@
 
 
 ##1.What this project will do?
-Handwriting recognition has always been a classic topic in deep learning. In order to facilitate people's use, we hope to write an app that allows people to upload pictures on the Web page, and then get predicted numbers of their handwriting. Additionally, the information of upload time, filename and the prediction number can also be recorded in the database at the same time, since the information is conducive to further model checking and data analysis.
+* Handwriting recognition has always been a classic topic in deep learning. In order to facilitate people's use, we hope to write an app that allows people to upload pictures on the Web page, and then get predicted numbers of their handwriting. Additionally, the information of upload time, filename and the prediction number can also be recorded in the database at the same time, since the information is conducive to further model checking and data analysis.
 
 
 ##2.demo
+
+
 ![demo](demo.gif)
 
 ##3.requirement
