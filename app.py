@@ -40,7 +40,7 @@ def predict(image_path):
     return np.argmax(output)
 
 
-#产生日志
+#generate log
 log = logging.getLogger()
 log.setLevel('INFO')
 handler = logging.StreamHandler()
@@ -49,7 +49,7 @@ log.addHandler(handler)
 #from cassandra.cluster import Cluster
 #from cassandra import ConsistencyLevel
 
-#创建表格
+#create a table
 
 KEYSPACE = "mykeyspace"
 
@@ -84,7 +84,7 @@ createKeySpace();
 
 
              
-#将实时数据输入数据库
+#insert data into database
 def insert_into_cassandra(var1, var2, var3):
     sql = "INSERT INTO mykeyspace.mytable (mykey, col1, col2) VALUES ('%s', '%s', '%s');""" % (var1, var2, var3)
     session.execute(sql)
