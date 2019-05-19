@@ -26,3 +26,6 @@ Handwriting recognition has always been a classic topic in deep learning. In ord
     * $ docker run -it --network some-network -p 4000:80 mnist16
 
 * Then run on http://0.0.0.0:4000, the user can get the predict number of the upload file. 
+
+##5. Others
+* The details can be seen in the report. 
